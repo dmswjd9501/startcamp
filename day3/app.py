@@ -30,7 +30,7 @@ def cube(number):
 @app.route('/lunch/<string:name>')
 def lunch(name):
     menu = ['한식', '스페셜A', '스페셜B']
-    return render_template('lunch.html', namee=name, pick=random.choice(menu))
+    return render_template('lunch.html', name=name, pick=random.choice(menu))
 
 
 
