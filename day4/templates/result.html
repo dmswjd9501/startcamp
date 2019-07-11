@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% if  location  == '서울' %}
+        <h2>이곳은 서울 북가좌역에 위치한 '맛있는 집'입니다.</h2>
+        <img src="http://blogfiles.naver.net/MjAxNjExMDdfNDYg/MDAxNDc4NDc0NTYwNjA3.LXTJ8kP3k17PsTKDlLAmE-g6IRPAgTtp00l8Pix_iaQg.iXxkZY0NdC6ngFWvEDxX0MmfFO9mhGgilr-191WqAYgg.JPEG.nanacook/%BA%CF%B0%A1%C1%C2%B5%BF%B6%B1%BA%BA%C0%CC_%288%29.JPG">
+        <img src="static/서울지도.PNG">
+    {% elif  location  == '부산' %}
+        <h2>이곳은 부산 해운대구 우동에 위치한 '짱떡볶이'입니다.</h2>
+        <img src="http://blogfiles.naver.net/MjAxODExMjJfMzAg/MDAxNTQyODg3NjU3OTg3.51DNPCJLLLDayI6oNT3qzVQcr7-98bxVR4Qa55WCj1kg.ZLp5hhp2D9XTbeQhJYQZlKyoNuqbFs2MivPas2u6_AAg.JPEG.dairyukem/20181122_121523.jpg">
+        <img src="static/부산지도.PNG">
+    {% else %}
+        <h2>이곳은 대구 수성구 상동에 위치한 '태우네분식'입니다.</h2>
+        <img src="http://blogfiles.naver.net/MjAxOTA0MjVfMTMz/MDAxNTU2MTU2MTM3OTYz.Ee9H_E6j-Yzqr8LBEvN-ZDNZPyWAnTWxPzaVKHs4O9Qg.XQvHZEdjXJoI7nn4tuYmLWqUfUihsWEMy2gGYH4EJA0g.JPEG.jhnakje94/IMG_3628.jpg">
+        <img src="static/태우네분식지도.PNG">
+    {% endif %}
+        
+    
+</body>
+</html>
